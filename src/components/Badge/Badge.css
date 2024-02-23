@@ -1,0 +1,9 @@
+.badge {
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.badge.primary {
+    background-color: #FF6633;
+    color: #FFF;
+}

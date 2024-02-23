@@ -1,0 +1,61 @@
+.card {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+}
+
+.card-like {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #8F8F8F;
+}
+
+.card-discount {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    padding: 4px 8px;
+    background-color: #FF6633;
+    color: #FFF;
+    border-radius: 4px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+}
+
+.card-flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-price_bold {
+    font-weight: 700;
+}
+
+.card-price_light {
+    font-weight: 500;
+}
+
+.card-payment-info {
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.card-button {
+    margin-bottom: 0;
+}

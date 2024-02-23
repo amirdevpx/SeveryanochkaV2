@@ -1,0 +1,31 @@
+.articles-responsive-row {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+    .articles-responsive-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 560px) {
+    .articles-responsive-row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.articles-card {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.articles-card-content {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    flex-direction: column;
+    background-color: #FFF;
+}
